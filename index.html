@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Weight to Mass Converter</title>
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <h1 id="MainTitle">Weight to Mass Converter</h1>
+        <p id="Description">Website to convert a weight (pounds or kilograms) to a mass (kilograms)</p>
+        
+        <form id="weightForm">
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" name="weight" placeholder="Type in your weight..." required>
+
+            <label for="unit">Select unit:</label>
+            <select id="unit" name="unit">
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+            </select>
+            <br>
+            <br>
+            <button id="convert" type="button" onclick="convertWeight()">Convert</button>
+        </form>
+        <br>
+        <p id="resultText"></p>
+        <p id="result"></p>
+    </body>
+</html>

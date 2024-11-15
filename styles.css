@@ -1,0 +1,37 @@
+#MainTitle {
+  text-align: center;
+  font-size: xx-large;
+  font-style: normal;
+}
+
+#Description {
+  text-align: center;
+  font-size: x-large;
+  font-style: normal;
+}
+
+#weightForm {
+  text-align: center;
+}
+
+
+#convert {
+  font-size: medium;
+  color: black;
+  background-color: white;
+}
+
+#resultText {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#result {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 1000;
+}
+
+body {
+  background-color: darkcyan;
+}
